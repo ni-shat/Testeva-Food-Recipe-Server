@@ -1,0 +1,100 @@
+{
+    "chefs": [
+        {
+            "id": 1,
+            "picture_url": "https://i.ibb.co/D7fwQTb/Untitled-design-12.png",
+            "name": "Jonnie Boer",
+            "experience": "30 years",
+            "total_recipes": 300,
+            "likes": 50000
+        },
+        {
+            "id": 2,
+            "picture_url": "https://i.ibb.co/WvvKC4d/Untitled-design-14.png",
+            "name": "Ina Garten",
+            "experience": "40 years",
+            "total_recipes": 200,
+            "likes": 35000
+        },
+        {
+            "id": 3,
+            "picture_url": "https://i.ibb.co/5TSqx01/Untitled-design-11.png",
+            "name": "Anthony Bourdain",
+            "experience": "25 years",
+            "total_recipes": 150,
+            "likes": 20000
+        },
+        {
+            "id": 4,
+            "picture_url": "https://i.ibb.co/NNXCvqM/chef-2.png",
+            "name": "Mario Batali",
+            "experience": "35 years",
+            "total_recipes": 250,
+            "likes": 40000
+        },
+        {
+            "id": 5,
+            "picture_url": "https://i.ibb.co/WvvKC4d/Untitled-design-14.png",
+            "name": "Julia Child",
+            "experience": "50 years",
+            "total_recipes": 100,
+            "likes": 15000
+        },
+        {
+            "id": 6,
+            "picture_url": "https://i.ibb.co/r2F49cc/Untitled-design-10.png",
+            "name": "Emeril Lagasse",
+            "experience": "30 years",
+            "total_recipes": 200,
+            "likes": 30000
+        },
+        {
+            "id": 7,
+            "picture_url": "https://i.ibb.co/5ktLk7Z/Untitled-design-13.png",
+            "name": "Rachael Ray",
+            "experience": "20 years",
+            "total_recipes": 100,
+            "likes": 20000
+        },
+        {
+            "id": 8,
+            "picture_url": "https://i.ibb.co/vLwn2qj/Untitled-design-8.png",
+            "name": "Bobby Flay",
+            "experience": "25 years",
+            "total_recipes": 150,
+            "likes": 25000
+        },
+        {
+            "id": 9,
+            "picture_url": "https://i.ibb.co/rf8SBs7/Untitled-design-7.png",
+            "name": "Alton Brown",
+            "experience": "30 years",
+            "total_recipes": 200,
+            "likes": 30000
+        },
+        {
+            "id": 10,
+            "picture_url": "https://i.ibb.co/vv0wvzH/Untitled-design-15.png",
+            "name": "Christina Tosi",
+            "experience": "15 years",
+            "total_recipes": 100,
+            "likes": 15000
+        },
+        {
+            "id": 11,
+            "picture_url": "",
+            "name": "https://i.ibb.co/sgfTFm6/Untitled-design-17.png",
+            "experience": "25 years",
+            "total_recipes": 150,
+            "likes": 20000
+        },
+        {
+            "id": 12,
+            "picture_url": "https://i.ibb.co/r5DZNzB/Untitled-design-9.png",
+            "name": "Thomas Keller",
+            "experience": "25 years",
+            "total_recipes": 100,
+            "likes": 15000
+        }
+    ]
+}
