@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "picture_url": "https://i.ibb.co/M86yGnn/Untitled-design-23.png",
+        "name": "Jonnie Boer",
+        "description": "chef Jonnie Boer is a renowned chef with over 20 years of experience in the culinary industry. He specializes in French cuisine and has won numerous awards for his innovative dishes. He is known for his attention to detail and ability to create complex, flavorful dishes that are as beautiful as they are delicious.",
+        "experience": "30 years",
+        "total_recipes": 300,
+        "likes": 50000
+    },
+    {
+        "id": 2,
+        "picture_url": "https://i.ibb.co/KrRzV2y/Untitled-design-25.png",
+        "name": "Ina Garten",
+        "description": "Ina Garten is an American chef, author, and television personality. She is best known for her cookbook series, Barefoot Contessa, and her show of the same name. She focuses on simple, flavorful recipes that can be easily made at home.",
+        "experience": "40 years",
+        "total_recipes": 200,
+        "likes": 35000
+    },
+    {
+        "id": 3,
+        "picture_url": "https://i.ibb.co/3rJXWYL/Untitled-design-30.png",
+        "name": "Robert Sanchez",
+        "description": "Robert Sanchez is a classically trained chef who has worked in some of the most prestigious restaurants in the US. He has a passion for French cuisine and is known for his perfectly executed soufflés and tarte tatins.",
+        "experience": "25 years",
+        "total_recipes": 150,
+        "likes": 20000
+    },
+    {
+        "id": 4,
+        "picture_url": "https://i.ibb.co/jyKhw4k/Untitled-design-28.png",
+        "name": "Mario Batali",
+        "description": "Mario Batali is a celebrity chef and cookbook author known for her approachable recipes and friendly demeanor. She is an expert in Asian cuisine and is passionate about teaching others how to cook healthy, delicious meals at home.",
+        "experience": "35 years",
+        "total_recipes": 250,
+        "likes": 40000
+    },
+    {
+        "id": 5,
+        "picture_url": "https://i.ibb.co/wLT1MMy/Untitled-design-29.png",
+        "name": "Julia Child",
+        "description": "Julia Child is a BBQ pitmaster who has won numerous awards for her brisket and ribs. She has spent years perfecting his smoking techniques and loves nothing more than sharing her tips and tricks with other BBQ enthusiasts.",
+        "experience": "50 years",
+        "total_recipes": 100,
+        "likes": 15000
+    },
+    {
+        "id": 6,
+        "picture_url": "https://i.ibb.co/hcK9J0F/Untitled-design-24.png",
+        "name": "Emeril Lagasse",
+        "description": "Emeril Lagasse is an American chef, restaurateur, and television personality. He is known for his Creole and Cajun cuisine and his catchphrase, \"Bam!\" He has written several cookbooks and hosted several TV shows, including Emeril Live and The Essence of Emeril.",
+        "experience": "30 years",
+        "total_recipes": 200,
+        "likes": 30000
+    },
+    {
+        "id": 7,
+        "picture_url": "https://i.ibb.co/Jn3ZMxB/Untitled-design-27.png",
+        "name": "Rachael Ray",
+        "description": "Chef Rachael Ray is a master of Korean cuisine. With over 15 years of experience, he has perfected the art of balancing spicy, sweet, and savory flavors to create dishes that are both satisfying and complex. He is known for his beautiful presentations and attention to detail..",
+        "experience": "20 years",
+        "total_recipes": 100,
+        "likes": 20000
+    },
+    {
+        "id": 8,
+        "picture_url": "https://i.ibb.co/6wBzx1F/Untitled-design-32.png",
+        "name": "Bobby Flay",
+        "description": "Chef Bobby Flay is a rising star in the culinary world. With 5 years of experience under his belt, he has already made a name for himself with his innovative fusion cuisine. he combines her Mexican heritage with French and Italian cooking techniques to create dishes that are both bold and delicious.",
+        "experience": "25 years",
+        "total_recipes": 150,
+        "likes": 25000
+    },
+    {
+        "id": 9,
+        "picture_url": "https://i.ibb.co/3rTsLxg/Untitled-design-26.png",
+        "name": "Alton Brown",
+        "description": "Chef Alton brown is a pastry chef extraordinaire. With over 10 years of experience, he has developed a reputation for creating some of the most delicious and beautiful desserts in the business. His creations are both innovative and classic, and always leave his customers wanting more.",
+        "experience": "30 years",
+        "total_recipes": 200,
+        "likes": 30000
+    },
+    {
+        "id": 10,
+        "picture_url": "https://i.ibb.co/V3xGypZ/Untitled-design-22.png",
+        "name": "Christina Tosi",
+        "description": "Chef Christina Tosi is a pastry chef who has a passion for creating beautiful and delicious desserts. She is an expert in pastry and is known for her macarons, and croissants. Her desserts have been featured in numerous magazines and on TV shows. Mia is also a travel enthusiast and loves to explore new cities and try local cuisine.",
+        "experience": "15 years",
+        "total_recipes": 100,
+        "likes": 15000
+    },
+    {
+        "id": 11,
+        "picture_url": "https://i.ibb.co/6D19DbG/Untitled-design-19.png",
+        "name": "Nigella Lawson",
+        "description": "Nigella Lawson is a young and talented chef who is quickly making a name for herself in the culinary world. With just 3 years of experience, she has already impressed diners with her creative and flavorful dishes. She draws inspiration from her Chinese heritage and combines it with modern cooking techniques to create dishes that are both delicious and visually stunning.",
+        "experience": "25 years",
+        "total_recipes": 150,
+        "likes": 20000
+    },
+    {
+        "id": 12,
+        "picture_url": "https://example.com/thomas_keller.jpg",
+        "name": "Thomas Keller",
+        "description": "Thomas Keller is a master of Mexican cuisine. With over 20 years of experience, he has perfected the art of creating complex, flavorful dishes that are both spicy and savory. He is known for his ability to take traditional Mexican dishes and elevate them to new heights with his innovative techniques and unique ingredients.",
+        "experience": "25 years",
+        "total_recipes": 100,
+        "likes": 15000
+    }
+]
