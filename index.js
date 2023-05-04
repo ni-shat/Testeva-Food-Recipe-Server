@@ -24,6 +24,24 @@ app.get('/chef-details/:id', (req, res) => {
     res.send(selectedchef);
 });
 
+
+let categories = ["Chicken", "Beef", "Fish", "Dessert", "Pasta"];
+let selectedCategories;
+
+app.get('/recipe-categories/:ct', (req, res) => {
+
+    const ct = req.params.ct;
+    console.log(ct)
+
+    for (const element of chefDetails) {
+        console.log(element?.recipes)
+        selectedRecipes = element?.recipes?.find(c => c.category == 'dessert');
+        console.log(selectedRecipes);
+    }
+
+    res.send(selectedCategories);
+});
+
 app.listen(port, () => {
     console.log(`chef api is running on port: ${port}`);
 });

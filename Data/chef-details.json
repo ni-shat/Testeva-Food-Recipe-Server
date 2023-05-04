@@ -1,110 +1,610 @@
 [
-    {
-        "id": 1,
-        "picture_url": "https://i.ibb.co/M86yGnn/Untitled-design-23.png",
-        "name": "Jonnie Boer",
-        "description": "chef Jonnie Boer is a renowned chef with over 20 years of experience in the culinary industry. He specializes in French cuisine and has won numerous awards for his innovative dishes. He is known for his attention to detail and ability to create complex, flavorful dishes that are as beautiful as they are delicious.",
-        "experience": "30 years",
-        "total_recipes": 300,
-        "likes": 50000
-    },
-    {
-        "id": 2,
-        "picture_url": "https://i.ibb.co/KrRzV2y/Untitled-design-25.png",
-        "name": "Ina Garten",
-        "description": "Ina Garten is an American chef, author, and television personality. She is best known for her cookbook series, Barefoot Contessa, and her show of the same name. She focuses on simple, flavorful recipes that can be easily made at home.",
-        "experience": "40 years",
-        "total_recipes": 200,
-        "likes": 35000
-    },
-    {
-        "id": 3,
-        "picture_url": "https://i.ibb.co/3rJXWYL/Untitled-design-30.png",
-        "name": "Robert Sanchez",
-        "description": "Robert Sanchez is a classically trained chef who has worked in some of the most prestigious restaurants in the US. He has a passion for French cuisine and is known for his perfectly executed soufflés and tarte tatins.",
-        "experience": "25 years",
-        "total_recipes": 150,
-        "likes": 20000
-    },
-    {
-        "id": 4,
-        "picture_url": "https://i.ibb.co/jyKhw4k/Untitled-design-28.png",
-        "name": "Mario Batali",
-        "description": "Mario Batali is a celebrity chef and cookbook author known for her approachable recipes and friendly demeanor. She is an expert in Asian cuisine and is passionate about teaching others how to cook healthy, delicious meals at home.",
-        "experience": "35 years",
-        "total_recipes": 250,
-        "likes": 40000
-    },
-    {
-        "id": 5,
-        "picture_url": "https://i.ibb.co/wLT1MMy/Untitled-design-29.png",
-        "name": "Julia Child",
-        "description": "Julia Child is a BBQ pitmaster who has won numerous awards for her brisket and ribs. She has spent years perfecting his smoking techniques and loves nothing more than sharing her tips and tricks with other BBQ enthusiasts.",
-        "experience": "50 years",
-        "total_recipes": 100,
-        "likes": 15000
-    },
-    {
-        "id": 6,
-        "picture_url": "https://i.ibb.co/hcK9J0F/Untitled-design-24.png",
-        "name": "Emeril Lagasse",
-        "description": "Emeril Lagasse is an American chef, restaurateur, and television personality. He is known for his Creole and Cajun cuisine and his catchphrase, \"Bam!\" He has written several cookbooks and hosted several TV shows, including Emeril Live and The Essence of Emeril.",
-        "experience": "30 years",
-        "total_recipes": 200,
-        "likes": 30000
-    },
-    {
-        "id": 7,
-        "picture_url": "https://i.ibb.co/Jn3ZMxB/Untitled-design-27.png",
-        "name": "Rachael Ray",
-        "description": "Chef Rachael Ray is a master of Korean cuisine. With over 15 years of experience, he has perfected the art of balancing spicy, sweet, and savory flavors to create dishes that are both satisfying and complex. He is known for his beautiful presentations and attention to detail..",
-        "experience": "20 years",
-        "total_recipes": 100,
-        "likes": 20000
-    },
-    {
-        "id": 8,
-        "picture_url": "https://i.ibb.co/6wBzx1F/Untitled-design-32.png",
-        "name": "Bobby Flay",
-        "description": "Chef Bobby Flay is a rising star in the culinary world. With 5 years of experience under his belt, he has already made a name for himself with his innovative fusion cuisine. he combines her Mexican heritage with French and Italian cooking techniques to create dishes that are both bold and delicious.",
-        "experience": "25 years",
-        "total_recipes": 150,
-        "likes": 25000
-    },
-    {
-        "id": 9,
-        "picture_url": "https://i.ibb.co/3rTsLxg/Untitled-design-26.png",
-        "name": "Alton Brown",
-        "description": "Chef Alton brown is a pastry chef extraordinaire. With over 10 years of experience, he has developed a reputation for creating some of the most delicious and beautiful desserts in the business. His creations are both innovative and classic, and always leave his customers wanting more.",
-        "experience": "30 years",
-        "total_recipes": 200,
-        "likes": 30000
-    },
-    {
-        "id": 10,
-        "picture_url": "https://i.ibb.co/V3xGypZ/Untitled-design-22.png",
-        "name": "Christina Tosi",
-        "description": "Chef Christina Tosi is a pastry chef who has a passion for creating beautiful and delicious desserts. She is an expert in pastry and is known for her macarons, and croissants. Her desserts have been featured in numerous magazines and on TV shows. Mia is also a travel enthusiast and loves to explore new cities and try local cuisine.",
-        "experience": "15 years",
-        "total_recipes": 100,
-        "likes": 15000
-    },
-    {
-        "id": 11,
-        "picture_url": "https://i.ibb.co/6D19DbG/Untitled-design-19.png",
-        "name": "Nigella Lawson",
-        "description": "Nigella Lawson is a young and talented chef who is quickly making a name for herself in the culinary world. With just 3 years of experience, she has already impressed diners with her creative and flavorful dishes. She draws inspiration from her Chinese heritage and combines it with modern cooking techniques to create dishes that are both delicious and visually stunning.",
-        "experience": "25 years",
-        "total_recipes": 150,
-        "likes": 20000
-    },
-    {
-        "id": 12,
-        "picture_url": "https://example.com/thomas_keller.jpg",
-        "name": "Thomas Keller",
-        "description": "Thomas Keller is a master of Mexican cuisine. With over 20 years of experience, he has perfected the art of creating complex, flavorful dishes that are both spicy and savory. He is known for his ability to take traditional Mexican dishes and elevate them to new heights with his innovative techniques and unique ingredients.",
-        "experience": "25 years",
-        "total_recipes": 100,
-        "likes": 15000
-    }
+  {
+    "id": 1,
+    "picture_url": "https://i.ibb.co/M86yGnn/Untitled-design-23.png",
+    "name": "Jonnie Boer",
+    "description": "chef Jonnie Boer is a renowned chef with over 20 years of experience in the culinary industry. He specializes in French cuisine and has won numerous awards for his innovative dishes. He is known for his attention to detail and ability to create complex, flavorful dishes that are as beautiful as they are delicious.",
+    "experience": "30 years",
+    "total_recipes": 300,
+    "likes": 50000,
+    "recipes": [
+      {
+        "recipe_name": "Spicy Black Bean Burgers",
+        "ingredients": [
+          "1 can (15 oz) black beans, drained and rinsed",
+          "1/2 cup bread crumbs",
+          "1/4 cup chopped red onion",
+          "1/4 cup chopped fresh cilantro",
+          "1 egg, lightly beaten",
+          "1 tbsp chili powder",
+          "1 tsp cumin",
+          "1/2 tsp salt",
+          "1/4 tsp black pepper",
+          "4 hamburger buns",
+          "Lettuce, tomato, and other toppings as desired"
+        ],
+        "cooking_method": "1. Mash the black beans in a bowl with a fork. Add the bread crumbs, red onion, cilantro, egg, chili powder, cumin, salt, and pepper. Mix well.  Form the mixture into 4 patties. Heat a nonstick skillet over medium heat. Cook the patties for 4-5 minutes on each side, until browned and heated through. Serve the burgers on buns with desired toppings.",
+        "rating": 4.2,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/BKPFw0G/Untitled-design-38.png"
+      },
+      {
+        "recipe_name": "Garlic Shrimp Linguine",
+        "ingredients": [
+          "8 oz linguine",
+          "1 lb large shrimp, peeled and deveined",
+          "4 cloves garlic, minced",
+          "1/4 tsp red pepper flakes",
+          "1/4 cup chopped fresh parsley",
+          "1/4 cup grated Parmesan cheese",
+          "1/4 cup olive oil",
+          "Salt and pepper"
+        ],
+        "cooking_method": "1. Cook the linguine in a large pot of boiling salted water until al dente. Meanwhile, heat the olive oil in a large frying pan over medium-high heat. Add the garlic and red pepper flakes and cook for 1-2 minutes, until fragrant. Add the shrimp and cook for 3-4 minutes, until pink and cooked through. Drain the linguine and toss with the shrimp, garlic, and parsley. Serve the pasta topped with Parmesan cheese and additional salt and pepper to taste.",
+        "rating": 4.5,
+        "category": "fish",
+        "recipe_picture": "https://i.ibb.co/2FwKnZS/Untitled-design-40.png"
+      },
+      {
+        "recipe_name": "Classic Spaghetti Bolognese",
+        "ingredients": [
+          "500g spaghetti",
+          "400g canned tomatoes",
+          "2 onions, chopped",
+          "4 garlic cloves, minced",
+          "500g beef mince",
+          "1/2 cup red wine",
+          "1/4 cup tomato paste",
+          "1/2 cup beef stock",
+          "2 tbsp olive oil",
+          "Salt and pepper"
+        ],
+        "cooking_method": "1. Cook the spaghetti in a large pot of boiling salted water until al dente. Meanwhile, heat the olive oil in a large frying pan over medium-high heat. Add the onion and garlic and cook for 2-3 minutes until soft. Add the beef mince and cook, breaking it up with a wooden spoon, until browned. Add the red wine and cook for 2-3 minutes until reduced. Stir in the canned tomatoes, tomato paste, and beef stock. Season with salt and pepper. Simmer for 20-25 minutes until the sauce has thickened. Serve the spaghetti topped with the Bolognese sauce and grated Parmesan cheese, if desired.",
+        "rating": 4.5,
+        "category": "pasta",
+        "recipe_picture": "https://i.ibb.co/Fb0xSS6/Untitled-design-41.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "picture_url": "https://i.ibb.co/KrRzV2y/Untitled-design-25.png",
+    "name": "Ina Garten",
+    "description": "Ina Garten is an American chef, author, and television personality. She is best known for her cookbook series, Barefoot Contessa, and her show of the same name. She focuses on simple, flavorful recipes that can be easily made at home.",
+    "experience": "40 years",
+    "total_recipes": 200,
+    "likes": 35000,
+    "recipes": [
+      {
+        "recipe_name": "Spicy Shrimp Pasta",
+        "ingredients": [
+          "1 pound shrimp, peeled and deveined",
+          "8 ounces spaghetti",
+          "2 tablespoons olive oil",
+          "3 cloves garlic, minced",
+          "1/4 teaspoon red pepper flakes",
+          "1/2 cup chicken broth",
+          "1/2 cup heavy cream",
+          "1/4 cup grated Parmesan cheese",
+          "1/4 cup chopped fresh parsley"
+        ],
+        "cooking_method": "1. Cook spaghetti according to package directions In a large skillet, heat olive oil over medium heat. Add garlic and red pepper flakes, and cook until fragrant, about 1 minute Add shrimp and cook until pink, about 3 minutes per side Remove shrimp from skillet and set aside Add chicken broth and heavy cream to skillet and bring to a simmer Add Parmesan cheese and stir until melted and smooth Add cooked spaghetti and shrimp to the skillet and toss to combine Serve hot, garnished with chopped parsley.",
+        "rating": 4.5,
+        "category": "pasta",
+        "recipe_picture": "https://i.ibb.co/T43ZTqf/Untitled-design-42.png"
+      },
+      {
+        "recipe_name": "Baked Salmon",
+        "ingredients": [
+          "4 (6-ounce) salmon fillets",
+          "Salt and pepper",
+          "4 tablespoons butter",
+          "4 cloves garlic, minced",
+          "2 tablespoons chopped fresh parsley",
+          "1 lemon, sliced"
+        ],
+        "cooking_method": "1. Preheat oven to 400°F Season salmon fillets with salt and pepper In a small saucepan, melt butter over medium heat. Add garlic and cook until fragrant, about 1 minute Place salmon fillets on a baking sheet lined with parchment paper Brush salmon fillets with garlic butter mixture Top each fillet with chopped parsley and lemon slices Bake for 12-15 minutes, until salmon is cooked through Serve hot.",
+        "rating": 4.2,
+        "category": "fish",
+        "recipe_picture": "https://i.ibb.co/MgHBcKT/Untitled-design-43.png"
+      },
+      {
+        "recipe_name": "Beef Stir Fry",
+        "ingredients": [
+          "1 pound flank steak, sliced against the grain",
+          "1/4 cup soy sauce",
+          "1 tablespoon cornstarch",
+          "1/4 teaspoon black pepper",
+          "2 tablespoons vegetable oil",
+          "1 tablespoon minced garlic",
+          "1 tablespoon minced ginger",
+          "1 red bell pepper, sliced",
+          "1 green bell pepper, sliced",
+          "1 onion, sliced",
+          "1/4 cup beef broth",
+          "1 tablespoon hoisin sauce",
+          "1 tablespoon oyster sauce",
+          "2 tablespoons chopped green onions"
+        ],
+        "cooking_method": "1. Preheat grill to medium-high heat In a small bowl, whisk together olive oil, garlic, oregano, salt, and pepper. Brush mixture over chicken breasts Grill chicken for 6-7 minutes per side, until cooked through In a large bowl, combine salad greens, cherry tomatoes, cucumber, olives, and feta cheese. Toss to combine Top salad with grilled chicken and serve.",
+        "rating": 4.5,
+        "category": "beef",
+        "recipe_picture": "https://i.ibb.co/MBNCDKS/Untitled-design-45.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "picture_url": "https://i.ibb.co/3rJXWYL/Untitled-design-30.png",
+    "name": "Robert Sanchez",
+    "description": "Robert Sanchez is a classically trained chef who has worked in some of the most prestigious restaurants in the US. He has a passion for French cuisine and is known for his perfectly executed soufflés and tarte tatins.",
+    "experience": "25 years",
+    "total_recipes": 150,
+    "likes": 20000,
+    "recipes": [
+      {
+        "recipe_name": "Mediterranean Grilled Chicken Salad",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/4 cup olive oil",
+          "2 cloves garlic, minced",
+          "1 tsp dried oregano",
+          "1/2 tsp salt",
+          "1/4 tsp black pepper",
+          "8 cups mixed salad greens",
+          "1 cup cherry tomatoes, halved",
+          "1 cup cucumber, sliced",
+          "1/2 cup kalamata olives",
+          "1/2 cup crumbled feta cheese"
+        ],
+        "cooking_method": "1. Preheat grill to medium-high heat In a small bowl, whisk together olive oil, garlic, oregano, salt, and pepper. Brush mixture over chicken breasts Grill chicken for 6-7 minutes per side, until cooked through In a large bowl, combine salad greens, cherry tomatoes, cucumber, olives, and feta cheese. Toss to combine Top salad with grilled chicken and serve.",
+        "rating": 4.5,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/xqZqJqn/Untitled-design-46.png"
+      },
+      {
+        "recipe_name": "Spaghetti Carbonara",
+        "ingredients": [
+          "1 lb spaghetti",
+          "6 oz pancetta, diced",
+          "4 cloves garlic, minced",
+          "4 large eggs",
+          "1 cup freshly grated Parmesan cheese",
+          "1/4 tsp salt",
+          "1/4 tsp black pepper",
+          "2 tbsp chopped fresh parsley"
+        ],
+        "cooking_method": "1. Cook spaghetti according to package directions until al dente. Reserve 1 cup of pasta water and drain spaghetti In a large skillet, cook pancetta over medium heat until crisp, about 8 minutes. Add garlic and cook for an additional 1-2 minutes In a small bowl, whisk together eggs, Parmesan cheese, salt, and pepper Add spaghetti to the skillet with the pancetta and garlic. Toss to combine Remove skillet from heat and pour egg mixture over spaghetti. Toss quickly to combine If the pasta seems too dry, add a little reserved pasta water to loosen the sauce Serve immediately, topped with chopped parsley.",
+        "rating": 4.8,
+        "category": "pasta",
+        "recipe_picture": "https://i.ibb.co/xF45XMt/Untitled-design-47.png"
+      },
+      {
+        "recipe_name": "Grilled Salmon with Mango Salsa",
+        "ingredients": [
+          "4 6-oz salmon fillets",
+          "1 tbsp olive oil",
+          "1/2 tsp salt",
+          "1/4 tsp black pepper",
+          "1 large mango, diced",
+          "1 small red onion, diced",
+          "1 small jalapeno pepper, seeded and minced",
+          "1/4 cup chopped fresh cilantro",
+          "2 tbsp lime juice"
+        ],
+        "cooking_method": "1. Preheat grill to medium-high heat. Brush salmon with olive oil and season with salt and black pepper. Grill salmon for 4-5 minutes per side, or until cooked through. In a small bowl, combine mango, red bell pepper, red onion, cilantro, lime juice, and honey. Top salmon with mango salsa and serve.",
+        "rating": 4.8,
+        "category": "fish",
+        "recipe_picture": "https://i.ibb.co/L51kBY1/Untitled-design-48.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "picture_url": "https://i.ibb.co/jyKhw4k/Untitled-design-28.png",
+    "name": "Mario Batali",
+    "description": "Mario Batali is a celebrity chef and cookbook author known for her approachable recipes and friendly demeanor. She is an expert in Asian cuisine and is passionate about teaching others how to cook healthy, delicious meals at home.",
+    "experience": "35 years",
+    "total_recipes": 250,
+    "likes": 40000,
+    "recipes": [
+      {
+        "recipe_name": "Mac and Cheese",
+        "ingredients": [
+          "8 oz elbow macaroni",
+          "2 tbsp butter",
+          "2 tbsp all-purpose flour",
+          "1 tsp salt",
+          "1/4 tsp black pepper",
+          "2 cups milk",
+          "2 cups shredded cheddar cheese"
+        ],
+        "cooking_method": "1. Preheat oven to 350°F. Cook macaroni according to package instructions. In a medium saucepan, melt butter over medium heat. Stir in flour, salt, and pepper. Gradually whisk in milk until mixture is smooth. Cook sauce, whisking constantly, until it thickens and comes to a boil. Stir in shredded cheddar cheese until it is melted and the sauce is smooth. Drain macaroni and add it to the cheese sauce, stirring until well coated. Pour mixture into a 9x13 inch baking dish. Bake for 20-25 minutes, or until bubbly and golden brown on top.",
+        "rating": 4.7,
+        "category": "Dessert",
+        "recipe_picture": "https://i.ibb.co/SR5wQyN/Untitled-design-49.png"
+      },
+      {
+        "recipe_name": "Fried Chicken",
+        "ingredients": [
+          "2 lbs chicken pieces",
+          "2 cups buttermilk",
+          "1 1/2 cups all-purpose flour",
+          "2 tsp salt",
+          "1 tsp black pepper",
+          "1 tsp paprika",
+          "1/2 tsp garlic powder",
+          "1/2 tsp onion powder",
+          "Vegetable oil, for frying"
+        ],
+        "cooking_method": "1. In a large bowl, soak chicken pieces in buttermilk for at least 1 hour, or overnight in the refrigerator. In a shallow dish, whisk together flour, salt, pepper, paprika, garlic powder, and onion powder. Remove chicken from buttermilk and let excess liquid drip off. Dredge chicken in flour mixture, shaking off any excess. In a large, deep skillet or Dutch oven, heat about 2 inches of vegetable oil over medium-high heat until hot. Fry chicken pieces in batches until golden brown and cooked through, about 15-20 minutes per batch. Drain chicken on a wire rack set over a baking sheet. Serve hot, with your favorite sides.",
+        "rating": 4.5,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/n01Trpd/Untitled-design-50.png"
+      },
+      {
+        "recipe_name": "Banana Bread",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1 tsp baking soda",
+          "1/4 tsp salt",
+          "1/2 cup unsalted butter, softened",
+          "1 cup granulated sugar",
+          "2 eggs",
+          "4 ripe bananas, mashed",
+          "1/4 cup milk",
+          "1 tsp vanilla extract"
+        ],
+        "cooking_method": "1. Preheat oven to 350°F. Grease a 9x5-inch loaf pan. In a medium bowl, whisk together flour, baking soda, and salt. In a large bowl, cream butter and sugar until light and fluffy. Beat in eggs, one at a time. Stir in mashed bananas, milk, and vanilla extract. Add flour mixture to banana mixture and stir until just combined. Pour batter into prepared loaf pan. Bake for 60-70 minutes, or until a toothpick inserted in the center comes out clean. Cool bread in pan for 10 minutes, then remove from pan and cool completely on a wire rack.",
+        "rating": 4.3,
+        "category": "Dessert",
+        "recipe_picture": "https://i.ibb.co/cxMLtKN/Untitled-design-51.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "picture_url": "https://i.ibb.co/wLT1MMy/Untitled-design-29.png",
+    "name": "Julia Child",
+    "description": "Julia Child is a BBQ pitmaster who has won numerous awards for her brisket and ribs. She has spent years perfecting his smoking techniques and loves nothing more than sharing her tips and tricks with other BBQ enthusiasts.",
+    "experience": "50 years",
+    "total_recipes": 100,
+    "likes": 15000,
+    "recipes": [
+      {
+        "recipe_name": "Texas-style BBQ Brisket",
+        "ingredients": [
+          "1 whole beef brisket (10-12 lbs)",
+          "1/2 cup paprika",
+          "1/4 cup kosher salt",
+          "1/4 cup black pepper",
+          "1/4 cup garlic powder",
+          "1/4 cup onion powder",
+          "2 tbsp cumin",
+          "2 tbsp brown sugar",
+          "2 tbsp chili powder",
+          "1 tbsp cayenne pepper",
+          "1 cup beef broth"
+        ],
+        "cooking_method": "1. Preheat smoker to 225°F. Mix together paprika, kosher salt, black pepper, garlic powder, onion powder, cumin, brown sugar, chili powder, and cayenne pepper in a small bowl to make the rub. Rub the brisket generously with the rub mixture, making sure to cover all sides. Place the brisket on the smoker, fat-side up, and smoke for 10-12 hours, or until the internal temperature of the brisket reaches 195°F. Remove the brisket from the smoker and wrap it tightly in foil. Place the wrapped brisket in a cooler or insulated container for 1-2 hours to rest. Slice the brisket against the grain and serve with beef broth, if desired.",
+        "rating": 4.9,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/3MXts0R/Untitled-design-52.png"
+      },
+      {
+        "recipe_name": "BBQ Ribs",
+        "ingredients": [
+          "3 lbs baby back ribs",
+          "1 cup BBQ sauce",
+          "1/4 cup brown sugar",
+          "2 tbsp paprika",
+          "1 tbsp garlic powder",
+          "1 tbsp onion powder",
+          "Salt and pepper, to taste"
+        ],
+        "cooking_method": "1. Preheat oven to 275°F. Remove the membrane from the back of the ribs. In a small bowl, mix together brown sugar, paprika, garlic powder, onion powder, salt, and pepper. Rub the spice mixture all over the ribs. Place the ribs on a baking sheet and bake for 3 hours. Brush BBQ sauce all over the ribs and return them to the oven. Bake for another hour, or until the ribs are tender and the sauce is caramelized.",
+        "rating": 4.5,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/2q6Q4dV/Untitled-design-53.png"
+      },
+      {
+        "recipe_name": "BBQ Chicken Skewers",
+        "ingredients": [
+          "4 chicken breasts, cut into cubes",
+          "1/2 cup BBQ sauce",
+          "2 tbsp olive oil",
+          "1 tsp garlic powder",
+          "1 tsp onion powder",
+          "1 tsp paprika",
+          "1/2 tsp salt",
+          "1/4 tsp black pepper",
+          "8 wooden skewers, soaked in water for 30 minutes"
+        ],
+        "cooking_method": "1. Preheat grill to medium-high heat. In a small bowl, mix together BBQ sauce, olive oil, garlic powder, onion powder, paprika, salt, and pepper. Thread chicken cubes onto skewers. Brush chicken skewers with BBQ sauce mixture. Grill skewers for 10-12 minutes, turning occasionally, until chicken is cooked through and slightly charred. Serve hot, with extra BBQ sauce on the side.",
+        "rating": 4.7,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/yh5S5qf/Untitled-design-54.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "picture_url": "https://i.ibb.co/hcK9J0F/Untitled-design-24.png",
+    "name": "Emeril Lagasse",
+    "description": "Emeril Lagasse is an American chef, restaurateur, and television personality. He is known for his Creole and Cajun cuisine and his catchphrase, He has written several cookbooks and hosted several TV shows, including Emeril Live and The Essence of Emeril.",
+    "experience": "30 years",
+    "total_recipes": 200,
+    "likes": 30000,
+    "recipes": [
+      {
+        "recipe_name": "Classic Cheeseburger",
+        "ingredients": [
+          "1 lb ground beef",
+          "1/4 cup bread crumbs",
+          "1 egg",
+          "1 tsp salt",
+          "1/2 tsp black pepper",
+          "4 slices cheddar cheese",
+          "4 hamburger buns",
+          "4 leaves lettuce",
+          "4 slices tomato",
+          "1/4 cup ketchup",
+          "1/4 cup mayonnaise",
+          "1/4 cup mustard"
+        ],
+        "cooking_method": "1. Preheat grill to medium-high heat In a large bowl, mix together the ground beef, bread crumbs, egg, salt, and black pepper. Form the mixture into four patties Grill the patties for 5-7 minutes per side, or until fully cooked. During the last minute of cooking, add a slice of cheddar cheese to each patty Toast the hamburger buns on the grill Assemble the burgers by placing a lettuce leaf and a slice of tomato on the bottom bun, followed by a cooked patty with melted cheese. Spread ketchup, mayonnaise, and mustard on the top bun, then place the bun on top of the patty to complete the burger.",
+        "rating": 4.7,
+        "category": "pasta",
+        "recipe_picture": "https://i.ibb.co/L6nhncP/classic-cheeseburger-recipe-1617736233.jpg"
+      },
+      {
+        "recipe_name": "Buttermilk Fried Chicken",
+        "ingredients": [
+          "4 lbs bone-in, skin-on chicken pieces",
+          "2 cups buttermilk",
+          "1 tbsp hot sauce",
+          "2 cups all-purpose flour",
+          "2 tbsp paprika",
+          "2 tbsp garlic powder",
+          "2 tbsp onion powder",
+          "1 tbsp salt",
+          "1 tbsp black pepper",
+          "Vegetable oil, for frying"
+        ],
+        "cooking_method": "1. In a large bowl, whisk together buttermilk and hot sauce. Add chicken pieces, making sure they are fully coated in the buttermilk mixture. Cover the bowl with plastic wrap and refrigerate for at least 2 hours, or overnight In a separate bowl, combine the flour, paprika, garlic powder, onion powder, salt, and black pepper Remove the chicken from the buttermilk mixture and let any excess drip off. Coat the chicken in the flour mixture, shaking off any excess In a large skillet or Dutch oven, heat about 1 inch of vegetable oil over medium-high heat until it reaches 350°F Working in batches, fry the chicken until golden brown and crispy on all sides, about 12-15 minutes for dark meat and 8-10 minutes for white meat. Use tongs to turn the chicken occasionally Transfer the fried chicken to a wire rack to drain excess oil. Serve hot",
+        "rating": 4.8,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/pP3cNky/Untitled-design-55.png"
+      },
+      {
+        "recipe_name": "Southern Fried Catfish",
+        "ingredients": [
+          "1 lb catfish fillets",
+          "1 cup cornmeal",
+          "1/2 cup all-purpose flour",
+          "2 tsp paprika",
+          "1 tsp garlic powder",
+          "1 tsp onion powder",
+          "1 tsp salt",
+          "1/4 tsp black pepper",
+          "1/2 cup buttermilk",
+          "Vegetable oil, for frying"
+        ],
+        "cooking_method": "1. Rinse the catfish fillets under cold water and pat dry with paper towels. Cut into smaller pieces if desired In a shallow dish, whisk together the cornmeal, flour, paprika, garlic powder, onion powder, salt, and black pepper Pour the buttermilk into another shallow dish. Dip the catfish fillets in the buttermilk, then dredge in the cornmeal mixture, pressing the mixture onto the fish to coat well. Heat about 1 inch of vegetable oil in a large skillet over medium-high heat until it reaches 375°F Fry the catfish fillets in the hot oil until golden brown and crispy, about 3-4 minutes per side. Use tongs to turn the fish once Drain the fried catfish on paper towels and serve hot.",
+        "rating": 4.7,
+        "category": "fish",
+        "recipe_picture": "https://i.ibb.co/Qd5Gxy5/Untitled-design-56.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "picture_url": "https://i.ibb.co/Jn3ZMxB/Untitled-design-27.png",
+    "name": "Rachael Ray",
+    "description": "Chef Rachael Ray is a master of Korean cuisine. With over 15 years of experience, he has perfected the art of balancing spicy, sweet, and savory flavors to create dishes that are both satisfying and complex. He is known for his beautiful presentations and attention to detail..",
+    "experience": "20 years",
+    "total_recipes": 100,
+    "likes": 20000,
+    "recipes": [
+      {
+        "recipe_name": "Clam Chowder",
+        "ingredients": [
+          "4 slices bacon, diced",
+          "1 large onion, chopped",
+          "2 medium carrots, peeled and diced",
+          "2 celery stalks, diced",
+          "2 cloves garlic, minced",
+          "2 tbsp all-purpose flour",
+          "2 cups chicken broth",
+          "2 cups whole milk",
+          "2 cans (6.5 oz each) chopped clams, drained, with juice reserved",
+          "1 bay leaf",
+          "1/2 tsp dried thyme",
+          "1 lb potatoes, peeled and diced",
+          "Salt and pepper, to taste",
+          "Chopped fresh parsley, for garnish"
+        ],
+        "cooking_method": [
+          "In a large pot or Dutch oven, cook the bacon over medium heat until crisp, about 8 minutes. Remove with a slotted spoon and drain on a paper towel-lined plate.",
+          "Add the onion, carrots, celery, and garlic to the pot and cook until the vegetables are tender, about 8 minutes.",
+          "Sprinkle the flour over the vegetables and stir to coat. Cook for 1 minute.",
+          "Gradually whisk in the chicken broth and milk. Add the reserved clam juice, bay leaf, and thyme. Bring to a simmer and cook until slightly thickened, about 10 minutes.",
+          "Add the potatoes and simmer until tender, about 15 minutes.",
+          "Stir in the clams and cooked bacon. Season with salt and pepper to taste.",
+          "Serve hot, garnished with chopped parsley."
+        ],
+        "rating": 4.7,
+        "category": "chicken",
+        "recipe_picture": "https://i.ibb.co/VwGfybb/Untitled-design-57.png"
+      },
+      {
+        "recipe_name": "Classic Caesar Salad",
+        "ingredients": [
+          "1 head romaine lettuce, chopped",
+          "1/2 cup Caesar dressing",
+          "1/2 cup croutons",
+          "1/2 cup grated Parmesan cheese",
+          "1 lemon, halved"
+        ],
+        "cooking_method": [
+          "In a large bowl, combine the chopped romaine lettuce, Caesar dressing, and croutons. Toss well to coat the lettuce evenly with the dressing.",
+          "Add the grated Parmesan cheese to the bowl and toss gently to combine.",
+          "Squeeze the juice of the lemon halves over the salad and toss again.",
+          "Serve immediately, garnished with additional croutons and Parmesan cheese if desired."
+        ],
+        "rating": 4.8,
+        "category": "vegetables",
+        "recipe_picture": "https://i.ibb.co/5vJHpFh/Untitled-design-58.png"
+      },
+      {
+        "recipe_name": "Cheesecake",
+        "ingredients": [
+          "For the crust:",
+          "1 1/2 cups graham cracker crumbs",
+          "1/3 cup granulated sugar",
+          "1/2 cup unsalted butter, melted",
+          "For the filling:",
+          "4 (8 oz) packages cream cheese, softened",
+          "1 1/4 cups granulated sugar",
+          "1 tsp vanilla extract",
+          "4 large eggs",
+          "1/3 cup heavy cream"
+        ],
+        "cooking_method": [
+          "Preheat the oven to 350°F. Wrap the outside of a 9-inch springform pan with aluminum foil.",
+          "In a medium bowl, combine the graham cracker crumbs, sugar, and melted butter. Stir well to combine.",
+          "Press the crumb mixture into the bottom and about 1 inch up the sides of the prepared pan. Refrigerate for 10 minutes.",
+          "In a large bowl, beat the cream cheese with an electric mixer until smooth and creamy. Gradually beat in the sugar and vanilla extract.",
+          "Beat in the eggs, one at a time, beating well after each addition. Stir in the heavy cream.",
+          "Pour the filling into the prepared crust. Bake for 50 to 60 minutes, until the cheesecake is set and slightly golden around the edges.",
+          "Turn off the oven and leave the cheesecake in the oven for 30 minutes with the door closed.",
+          "Remove the cheesecake from the oven and let it cool to room temperature. Chill in the refrigerator for at least 4 hours before serving."
+        ],
+        "rating": 4.9,
+        "category": "Dessert",
+        "recipe_picture": "https://i.ibb.co/tYWV6g5/Untitled-design-59.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "picture_url": "https://i.ibb.co/6wBzx1F/Untitled-design-32.png",
+    "name": "Bobby Flay",
+    "description": "Chef Bobby Flay is a rising star in the culinary world. With 5 years of experience under his belt, he has already made a name for himself with his innovative fusion cuisine. he combines her Mexican heritage with French and Italian cooking techniques to create dishes that are both bold and delicious.",
+    "experience": "25 years",
+    "total_recipes": 150,
+    "likes": 25000
+  },
+  {
+    "id": 9,
+    "picture_url": "https://i.ibb.co/3rTsLxg/Untitled-design-26.png",
+    "name": "Alton Brown",
+    "description": "Chef Alton brown is a pastry chef extraordinaire. With over 10 years of experience, he has developed a reputation for creating some of the most delicious and beautiful desserts in the business. His creations are both innovative and classic, and always leave his customers wanting more.",
+    "experience": "30 years",
+    "total_recipes": 200,
+    "likes": 30000,
+    "recipes": [
+      {
+        "recipe_name": "Blueberry Tart",
+        "ingredients": [
+          "For the crust:",
+          "1 1/2 cups all-purpose flour",
+          "1/4 cup granulated sugar",
+          "1/4 tsp salt",
+          "1/2 cup unsalted butter, chilled and cubed",
+          "1 egg yolk",
+          "2 tbsp ice water",
+          "For the filling:",
+          "4 cups fresh blueberries",
+          "1/4 cup granulated sugar",
+          "2 tbsp cornstarch",
+          "1 tbsp lemon juice",
+          "1 tbsp unsalted butter"
+        ],
+        "cooking_method": [
+          "In a large bowl, whisk together the flour, sugar, and salt. Add the butter and use a pastry cutter or your fingers to cut the butter into the flour mixture until it resembles coarse sand.",
+          "In a small bowl, whisk together the egg yolk and ice water. Drizzle the egg mixture over the flour mixture and stir until the dough comes together.",
+          "Press the dough into the bottom and up the sides of a 9-inch tart pan with a removable bottom. Chill in the refrigerator for 30 minutes.",
+          "Preheat the oven to 375°F. Line the chilled tart shell with parchment paper and fill with pie weights or dried beans. Bake for 20 minutes, then remove the parchment and weights and bake for an additional 10 minutes, until golden brown.",
+          "In a large saucepan, combine 2 cups of the blueberries, sugar, cornstarch, and lemon juice. Cook over medium heat, stirring frequently, until the mixture comes to a boil and thickens.",
+          "Remove from heat and stir in the remaining 2 cups of blueberries and butter. Pour the blueberry filling into the baked tart shell.",
+          "Bake for 20 to 25 minutes, until the filling is bubbly and the crust is golden brown. Let cool to room temperature before serving."
+        ],
+        "rating": 4.7,
+        "category": "Dessert",
+        "recipe_picture": "https://i.ibb.co/m9xqBtj/Untitled-design-60.png"
+      },
+      {
+        "recipe_name": "Buttermilk Biscuits",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1 tbsp baking powder",
+          "1 tsp salt",
+          "1/2 tsp baking soda",
+          "1/2 cup unsalted butter, chilled and cubed",
+          "3/4 cup buttermilk"
+        ],
+        "cooking_method": [
+          "Preheat the oven to 450°F. Line a baking sheet with parchment paper.",
+          "In a large bowl, whisk together the flour, baking powder, salt, and baking soda. Add the chilled butter and use a pastry cutter or your fingers to cut the butter into the flour mixture until it resembles coarse sand.",
+          "Add the buttermilk and stir until the dough comes together. Turn the dough out onto a floured surface and knead lightly until it comes together in a smooth ball.",
+          "Roll out the dough to 1/2-inch thickness. Cut out rounds of dough using a biscuit cutter or the rim of a glass. Place the biscuits on the prepared baking sheet.",
+          "Bake for 12 to 15 minutes, until the biscuits are golden brown. Serve warm with butter and jam."
+        ],
+        "rating": 4.5,
+        "category": "Dessert",
+        "recipe_picture": "https://i.ibb.co/G9rxM1H/Untitled-design-61.png"
+      },
+      {
+        "recipe_name": "Apple Pie",
+        "ingredients": [
+          "2 pie crusts",
+          "6 cups sliced apples",
+          "1/2 cup sugar",
+          "1/4 cup all-purpose flour",
+          "1 tsp cinnamon",
+          "1/4 tsp nutmeg",
+          "1/4 tsp salt",
+          "2 tbsp unsalted butter",
+          "1 egg, beaten"
+        ],
+        "cooking_method": [
+          "Preheat the oven to 375°F. Place one pie crust in a 9-inch pie dish.",
+          "In a large bowl, toss the sliced apples with the sugar, flour, cinnamon, nutmeg, and salt. Pour the apple mixture into the pie crust and dot with butter.",
+          "Top with the second pie crust and crimp the edges to seal. Brush the beaten egg over the top of the pie crust.",
+          "Bake for 45 to 50 minutes, until the crust is golden brown and the filling is bubbling. Allow to cool before slicing and serving."
+        ],
+        "rating": 4.8,
+        "category": "Dessert",
+        "recipe_picture": "https://i.ibb.co/w7tBCVg/Untitled-design-62.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "picture_url": "https://i.ibb.co/V3xGypZ/Untitled-design-22.png",
+    "name": "Christina Tosi",
+    "description": "Chef Christina Tosi is a pastry chef who has a passion for creating beautiful and delicious desserts. She is an expert in pastry and is known for her macarons, and croissants. Her desserts have been featured in numerous magazines and on TV shows. Mia is also a travel enthusiast and loves to explore new cities and try local cuisine.",
+    "experience": "15 years",
+    "total_recipes": 100,
+    "likes": 15000
+  },
+  {
+    "id": 11,
+    "picture_url": "https://i.ibb.co/6D19DbG/Untitled-design-19.png",
+    "name": "Nigella Lawson",
+    "description": "Nigella Lawson is a young and talented chef who is quickly making a name for herself in the culinary world. With just 3 years of experience, she has already impressed diners with her creative and flavorful dishes. She draws inspiration from her Chinese heritage and combines it with modern cooking techniques to create dishes that are both delicious and visually stunning.",
+    "experience": "25 years",
+    "total_recipes": 150,
+    "likes": 20000
+  },
+  {
+    "id": 12,
+    "picture_url": "https://example.com/thomas_keller.jpg",
+    "name": "Thomas Keller",
+    "description": "Thomas Keller is a master of Mexican cuisine. With over 20 years of experience, he has perfected the art of creating complex, flavorful dishes that are both spicy and savory. He is known for his ability to take traditional Mexican dishes and elevate them to new heights with his innovative techniques and unique ingredients.",
+    "experience": "25 years",
+    "total_recipes": 100,
+    "likes": 15000
+  }
 ]

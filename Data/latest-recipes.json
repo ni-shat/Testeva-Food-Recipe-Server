@@ -1,0 +1,40 @@
+{
+    "latest_recipes": [
+        {
+            "recipe_url": "https://i.ibb.co/TkPDNSZ/Untitled-design-68.png",
+            "description": "A savory and satisfying chicken parmesan recipe that's perfect for weeknight dinners. Juicy chicken breasts are breaded and cooked until crispy, then topped with marinara sauce and melted mozzarella cheese.",
+            "recipe_name": "Chicken Parmesan",
+            "chef": "John Smith"
+        },
+        {
+            "recipe_url": "https://i.ibb.co/WtGcVd2/Untitled-design-67.png",
+            "description": "This easy-to-make vegetarian lasagna is packed with flavor and sure to please even the most discerning of palates. Layers of fresh pasta, spinach, ricotta cheese, and a rich tomato sauce come together to create a hearty and satisfying meal.",
+            "recipe_name": "Spinach and Ricotta Lasagna",
+            "chef": "Jane Doe"
+        },
+        {
+            "recipe_url": "https://i.ibb.co/dmLYLkY/Untitled-design-66.png",
+            "description": "Tender and juicy beef brisket slow-cooked to perfection with a tangy and flavorful BBQ sauce. This recipe is perfect for a summer cookout or a hearty weeknight dinner.",
+            "recipe_name": "BBQ Beef Brisket",
+            "chef": "Mike Johnson"
+        },
+        {
+            "recipe_url": "https://i.ibb.co/VgZsRjv/Untitled-design-65.png",
+            "description": "Tender and juicy beef brisket slow-cooked to perfection with a tangy and flavorful BBQ sauce. This recipe is perfect for a summer cookout or a hearty weeknight dinner.",
+            "recipe_name": "BBQ Beef Brisket",
+            "chef": "Mike Johnson"
+        },
+        {
+            "recipe_url": "https://i.ibb.co/t8Qq75Z/Untitled-design-69.png",
+            "description": "Tender and juicy beef brisket slow-cooked to perfection with a tangy and flavorful BBQ sauce. This recipe is perfect for a summer cookout or a hearty weeknight dinner.",
+            "recipe_name": "BBQ Beef Brisket",
+            "chef": "Mike Johnson"
+        },
+        {
+            "recipe_url": "https://i.ibb.co/thkzjvJ/BBQ-Chicken-main-1.webp" ,
+            "description": "Tender and juicy beef brisket slow-cooked to perfection with a tangy and flavorful BBQ sauce. This recipe is perfect for a summer cookout or a hearty weeknight dinner.",
+            "recipe_name": "BBQ Beef Brisket",
+            "chef": "Mike Johnson"
+        }
+    ]
+}
